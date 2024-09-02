@@ -1,0 +1,223 @@
+/* Portfolio style sheet */
+
+/* html */
+html{
+  font-size: 30px;
+}
+
+/* body */
+
+/* header */
+header{
+  padding: 20px 15px;
+  background-color: rgb(50, 52, 69);
+}
+
+/* nav */
+.nav-bar{
+  background-color: rgb(50, 52, 69);
+}
+
+/* ul */
+ul{
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+/* li */
+li{
+  list-style-type: none;
+}
+
+/* a */
+li a{
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.nav-bar a:hover{
+  background-color: rgb(254, 193, 88);
+  color: black;
+}
+
+/* main */
+
+/* home */
+#home{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(50, 52, 69);
+  color: white;
+  margin-bottom: 0px auto;
+}
+#home a{
+  text-decoration: none;
+}
+.home-one{
+  padding: 40px;
+  margin: 20px;
+  width: 70px;
+  font-size: 2rem;
+}
+.home-two{
+  width: 700px;
+  height: 800px;
+}
+#home img{
+  width: 700px;
+  height: 750px;
+  margin-left: 170px;
+}
+.icon{
+  display: flex;
+}
+.icon i{
+  padding: 15px;
+}
+.home-three{
+  padding: 40px;
+  margin: 20px;
+  width: 350px;
+  font-size: 1.1rem;
+  margin-top: 5px;
+}
+
+/* about */
+
+#about{
+  background-color: rgb(35, 37, 51);
+  height: 1000px;
+  font-size: 30px;
+}
+.ab-one{
+  display: flex;
+  color: white;
+  height: 500px;
+}
+.contact-one{
+  width: 400px;
+  margin: 70px 200px;
+}
+.contact-one > h2{
+  margin: 5px;
+}
+.contact-one > h6{
+  margin: 3px;
+}
+.contact-one > h3{
+  padding-bottom: 2px;
+}
+.child-contact-one{
+  display: flex;
+  margin-top: 5px;
+}
+.child-contact-one-child{
+  display: flex;
+}
+.child-contact-one-child > h6{
+  padding-left: 30px;
+  margin-top: 5px;
+}
+.child-contact-one-child > h2{
+  margin-top: 5px;
+}
+.ab-two{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+.contact-two{
+  border: 5px solid rgb(50, 52, 69);
+  background-color: rgb(50, 52, 69);
+  color: white;
+  height: 200px;
+  width: 200px;
+  padding: 40px 17px 20px 20px;
+}
+.contact-two-child{
+  display: flex;
+}
+.contact-two-child > h3{
+  margin-top: 1px;
+  padding-left: 8px;
+}
+#project{
+  background-color: rgb(50, 52, 69);
+}
+.prt{
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+}
+.prt > img{
+  width: 300px;
+  height: 350px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#blog{
+  background-color: rgb(35, 37, 51);
+  color: white;
+  font-size: 30px;
+  height: 900px;
+}
+.blog-one{
+  display: flex;
+  justify-content: space-evenly;
+}
+.blog-one-one{
+  width: 500px;
+  height: 100px;
+}
+.blog-one-two-one{
+  display: flex;
+  justify-content: space-evenly;
+  width: 600px;
+}
+.blog-one-two-one > h6{
+  width: 30px;
+  padding-right: 40px;
+}
+.blog-one-two-one > i{
+  padding-top: 40px;
+}
+.blog-two{
+  display: flex;
+  justify-content: space-evenly;
+}
+.blog-two-one > img{
+   height: 400px;
+   width: 400px;
+}
+footer{
+  background-color: rgb(50, 52, 69);
+  color: white;
+}
+.footer-one{
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-one-two-one{
+  display: flex;
+}
+.footer-one-two-two{
+  display: flex;
+  padding: 40px;
+}
+.footer-one-two-two > i{
+  margin-right: 20px;
+}
+.footer-two{
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(50, 52, 69);
+  height: 400px;
+}
+.footer-two-one{
+  display: flex;
+}
