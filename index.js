@@ -86,3 +86,10 @@
 // }else{
 //         console.log("The character is a consonant")  
 // }
+let memAmount=470;
+let points=memAmount/10;
+if (memAmount>10){
+    console.log("Your member point:"+points)
+}else{
+    console.log("not eligible for member");  
+}
