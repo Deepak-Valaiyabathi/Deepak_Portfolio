@@ -389,6 +389,7 @@ i {
  }
  .blog-two{
   height: 600px;
+  padding-left: 10px;
  }
   .blog-one-two> {
     font-size: 10px;
@@ -406,7 +407,7 @@ i {
     padding: 10px;
   }
   input, textarea, form,fieldset, button{
-    width:400px;
+    width:380px;
     margin-right: 0px;
     margin-left: 0px;
   }
