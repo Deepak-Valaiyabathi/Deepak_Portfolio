@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* width: 1468px; */
+    font-family: arial;
+}
+header{
+    background-color: rgb(76, 175, 80);
+    /* width: 1468px; */
+    margin: 0px;
+    padding: 18px;
+    text-align: center;
+}
+h1{
+        color: black;
+}
+.navbar{
+    background-color: rgb(51, 51, 51);
+    margin: 0px; 
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    top: 0;
+    position: sticky;
+     /* width: 1468px; */
+}
+a{
+    color: rgb(244, 248, 240);
+    margin: 15px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(244, 248, 240);
+    color: rgb(51, 51, 51);
+    text-decoration: underline;
+}
+.container{
+    margin: 0px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.main-content{
+    text-align: center;
+    padding: 15px 15px 10px 15px;
+}
+.main-content > h2{
+    margin: 15px;
+}
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.grid-item{
+    border: 2px rgb(244, 244, 244);
+    background-color: rgb(244, 244, 244);
+    padding: 15px 15px 18px 15px;
+    margin: 15px;
+    width: 265px;
+}
+.additional-content{
+    background-color: rgb(201, 189, 175);
+    text-align: center;
+    margin: 8px;
+    padding: 20px;
+}
+.content-grid{ 
+    padding: 5px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-grid h3{
+    text-align: center;
+    margin: 5px;
+}
+.content-grid div{
+    margin: 10px;
+    background-color: rgb(235, 221, 205);
+    text-align:left;padding: 10px;
+}
+.footer{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0px;
+}
+@media(max-width: 1024px){
+    .grid-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 1024px){
+    .content-grid{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
