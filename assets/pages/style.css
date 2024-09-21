@@ -160,7 +160,7 @@ li a {
   width: 250px;
   padding: 40px 17px 20px 20px;
   margin: 10px;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .contact-two-child {
@@ -182,19 +182,16 @@ li a {
   justify-content: space-evenly;
   font-size: 22px;
 }
-.prt>img{
-  width: 300px;
-  height: 350px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-.prt>a>img {
-  width: 300px;
-  height: 350px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
 
+.prt>a>img {
+  width: 350px;
+  height: 300px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.prt>div{
+  width: 350px;
+}
 #blog {
   background-color: rgb(0, 36, 107);
   color: rgb(202, 220, 252);
