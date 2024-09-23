@@ -3,6 +3,7 @@
 /* html */
 html {
   font-size: 30px;
+  scroll-behavior: smooth;
 }
 
 
