@@ -1,4 +1,5 @@
 Hi, all!
 This is Deepak's portfolio.
-My portfolio is inspired from the following design:
+
+My porfolio is inspired from the follwing design:
 ![design](model.png)
