@@ -74,7 +74,7 @@ li a {
   padding: 40px;
   margin: 20px;
   width: 300px;
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 
 #home img {
@@ -111,38 +111,18 @@ li a {
 }
 
 .contact-one {
-  width: 400px;
+  width: 450px;
   margin: 70px;
+  margin-bottom: 0px;
+  margin-right: 5px;
 }
 
 .contact-one>h2 {
   margin: 5px;
+  font-size: 35px;
 }
-
-.contact-one>h6 {
-  margin: 3px;
-}
-
-.contact-one>h3 {
-  padding-bottom: 2px;
-}
-
-.child-contact-one {
-  display: flex;
-  margin-top: 5px;
-}
-
-.child-contact-one-child {
-  display: flex;
-}
-
-.child-contact-one-child>h6 {
-  padding-left: 30px;
-  margin-top: 5px;
-}
-
-.child-contact-one-child>h2 {
-  margin-top: 5px;
+.contact-one-h2{
+  font-size: 30px;
 }
 
 .ab-two {
@@ -159,18 +139,24 @@ li a {
   color: rgb(0, 36, 107);
   height: 250px;
   width: 250px;
-  padding: 40px 17px 20px 20px;
+  padding: 10px 10px 10px 10px;
   margin: 10px;
   font-size: 22px;
+  text-align: center;
 }
-
-.contact-two-child {
-  display: flex;
+.contact-two-child{
+  height: 100px;
 }
-
-.contact-two-child>h3 {
-  margin-top: 1px;
-  padding-left: 8px;
+.contact-two-child>h3{
+  margin-top: 0px;
+}
+.contact-two>p{
+  margin-top:70px;
+  font-weight: bolder;
+}
+.contact-two>i{
+  font-size: 60px;
+  margin: 0px;
 }
 
 #project {
@@ -182,13 +168,17 @@ li a {
   color: rgb(0, 36, 107);
   justify-content: space-evenly;
   font-size: 22px;
+  padding-top: 30px;
 }
-
-.prt>a>img {
+.prt-one>a>img {
   width: 350px;
   height: 300px;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+.prt-one>h4{
+  margin: 0px;
+  text-align: center;
 }
 .prt>div{
   width: 350px;
@@ -239,15 +229,23 @@ li a {
 }
 .blog-two-two>h2, h5, h6{
   margin-bottom: 0px;
-  margin-top: 2px;
+  margin-top: 8px;
+}
+.words{
+  width: 536px;
+  text-align: end;
+}
+.blog-two-two>h2{
+  font-size: 31px;
+  line-height: 40px;
 }
 
 #contact {
   background-color: rgb(202, 220, 252);
   color: rgb(0, 36, 107);
   margin: 0px;
-  height: 820px;
-  padding: 0px;
+  height: 850px;
+  padding:0px;
   text-align: center;
 }
 
@@ -328,14 +326,22 @@ i {
 .footer_one_two_child_two {
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid rgb(254, 193, 88);
-  border-top: 2px solid rgb(254, 193, 88);
+  border-bottom: 2px solid rgb(255, 107, 43);
+  border-top: 2px solid rgb(255, 107, 43);
 }
 
 .icons {
   font-size: 40px;
 }
-
+footer>p{
+  margin-bottom: 0px;
+}
+.back{
+  margin: 0px;
+  padding: 10px;
+  text-align: end;
+  height: 50px;
+}
 /* Small screens (mobile devices) */
 @media(max-width: 1024px) {
 
@@ -395,7 +401,7 @@ i {
   }
  #blog{
      width: 100%;
-    height: 1500px;
+    height: 1520px;
     flex-direction: column;
     font-size: 22px;
  }
@@ -428,6 +434,9 @@ i {
 }
   .blog-one-two-one>h6, h5,i{
     margin-bottom: 0px;
+  }
+  .words{
+    width: 400px;
   }
   #contact>p{
     margin: 0px;
