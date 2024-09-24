@@ -393,11 +393,20 @@ footer>p{
     margin-bottom: 5px;
     margin-top: 10px;
   }
+  .ab-one>.contact-one>.contact-one-h2{
+    font-size: 19px;
+  }
+  .ab-one>.contact-one>h2{
+    font-size: 19px;
+  }
   .contact-two{
     padding-right: 0px;
   }
   .ab-two{
     margin-top: 10px;
+  }
+  .prt-one{
+    margin-top: 30px;
   }
  #blog{
      width: 100%;
@@ -435,8 +444,14 @@ footer>p{
   .blog-one-two-one>h6, h5,i{
     margin-bottom: 0px;
   }
+  .blog-two-two>h2{
+    font-size: 30px;
+  }
   .words{
     width: 400px;
+  }
+  .words>i{
+    font-size: 19px;
   }
   #contact>p{
     margin: 0px;
