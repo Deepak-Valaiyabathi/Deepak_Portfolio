@@ -119,10 +119,14 @@ li a {
 
 .contact-one>h2 {
   margin: 5px;
-  font-size: 35px;
+  font-size: 30px;
 }
 .contact-one-h2{
   font-size: 30px;
+}
+.contact-one>img{
+  width: 100%;
+  height: fit-content;
 }
 
 .ab-two {
@@ -212,6 +216,9 @@ li a {
   width: 30px;
   padding-right: 40px;
 }
+.blog-one-two-one>h5{
+  width: 402.75px;
+}
 
 .blog-one-two-one>i {
   padding-top: 40px;
@@ -222,10 +229,15 @@ li a {
   justify-content: space-evenly;
   margin: 0px;
 }
-
+.blog-two-one{
+  width: 500px;
+}
 .blog-two-one>img {
   height: 400px;
-  width: 400px;
+  width: 100%;
+}
+.blog-two-two{
+  width: 600px;
 }
 .blog-two-two>h2, h5, h6{
   margin-bottom: 0px;
