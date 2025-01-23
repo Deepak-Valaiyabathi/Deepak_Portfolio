@@ -6,7 +6,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 * {
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
@@ -82,7 +81,6 @@ li a {
   height: 600px;
 }
 
-
 .home-three {
   padding: 40px;
   margin: 20px;
@@ -117,14 +115,14 @@ li a {
   margin-right: 5px;
 }
 
-.contact-one>h2 {
+.contact-one > h2 {
   margin: 5px;
   font-size: 30px;
 }
-.contact-one-h2{
+.contact-one-h2 {
   font-size: 30px;
 }
-.contact-one>img{
+.contact-one > img {
   width: 100%;
   height: fit-content;
 }
@@ -141,55 +139,126 @@ li a {
   border-radius: 10px;
   background-color: rgb(202, 220, 252);
   color: rgb(0, 36, 107);
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   padding: 10px 10px 10px 10px;
   margin: 10px;
-  font-size: 22px;
+  font-size: 12px;
   text-align: center;
 }
-.contact-two-child{
-  height: 100px;
+.contact-two-child {
+  height: 50px;
 }
-.contact-two-child>h3{
-  margin-top: 0px;
+.contact-two-child > h3 {
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
-.contact-two>p{
-  margin-top:70px;
+.contact-two > p {
+  margin-top: 40px;
   font-weight: bolder;
 }
-.contact-two>i{
+.contact-two > i {
   font-size: 60px;
   margin: 0px;
 }
-
-#project {
+.progressBar {
+  width: 160px;
+  height: 10px;
+  background-color: #ff6b2b;
+  border: none;
+  border-radius: 10px;
+  margin: 15px 0px 15px 5px;
+  padding: 0px;
+}
+#barPercentageHTML {
+  width: 95px;
+  height: 10px;
+  background-color: rgb(0, 36, 107);
+  margin: 0px;
+  border-radius: 10px;
+}
+#barPercentageCSS {
+  width: 95px;
+  height: 10px;
+  background-color: rgb(0, 36, 107);
+  margin: 0px;
+  border-radius: 10px;
+}
+#barPercentageJS {
+  width: 80px;
+  height: 10px;
+  background-color: rgb(0, 36, 107);
+  margin: 0px;
+  border-radius: 10px;
+}
+#barPercentagePS {
+  width: 80px;
+  height: 10px;
+  background-color: rgb(0, 36, 107);
+  margin: 0px;
+  border-radius: 10px;
+}
+#barPercentageSQL {
+  width: 50px;
+  height: 10px;
+  background-color: rgb(0, 36, 107);
+  margin: 0px;
+  border-radius: 10px;
+}
+#english {
   background-color: rgb(202, 220, 252);
+  color: #ff6b2b;
+  height: 1000px;
+  padding-top: 30px;
+}
+#englishSkils {
+  height: 450px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.skillBox {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(0, 36, 107);
+  border: none;
+  border-radius: 10px;
+  margin-top: 80px;
+  margin-bottom: 5px;
+  place-items: center;
+  padding-top: 50px;
+}
+#lifeSkils {
+  height: 450px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#project {
+  background-color: rgb(0, 36, 107);
 }
 
 .prt {
   display: flex;
-  color: rgb(0, 36, 107);
+  color: rgb(202, 220, 252);
   justify-content: space-evenly;
   font-size: 22px;
   padding-top: 30px;
 }
-.prt-one>a>img {
+.prt-one > a > img {
   width: 350px;
   height: 300px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.prt-one>h4{
+.prt-one > h4 {
   margin: 0px;
   text-align: center;
 }
-.prt>div{
+.prt > div {
   width: 350px;
 }
 #blog {
-  background-color: rgb(0, 36, 107);
-  color: rgb(202, 220, 252);
+  background-color: rgb(202, 220, 252);
+  color: rgb(0, 36, 107);
   font-size: 30px;
   height: 750px;
   margin-bottom: 0px;
@@ -212,15 +281,15 @@ li a {
   width: 600px;
 }
 
-.blog-one-two-one>h6 {
+.blog-one-two-one > h6 {
   width: 30px;
   padding-right: 40px;
 }
-.blog-one-two-one>h5{
+.blog-one-two-one > h5 {
   width: 402.75px;
 }
 
-.blog-one-two-one>i {
+.blog-one-two-one > i {
   padding-top: 40px;
 }
 
@@ -229,39 +298,41 @@ li a {
   justify-content: space-evenly;
   margin: 0px;
 }
-.blog-two-one{
+.blog-two-one {
   width: 500px;
 }
-.blog-two-one>img {
+.blog-two-one > img {
   height: 400px;
   width: 100%;
 }
-.blog-two-two{
+.blog-two-two {
   width: 600px;
 }
-.blog-two-two>h2, h5, h6{
+.blog-two-two > h2,
+h5,
+h6 {
   margin-bottom: 0px;
   margin-top: 8px;
 }
-.words{
+.words {
   width: 536px;
   text-align: end;
 }
-.blog-two-two>h2{
+.blog-two-two > h2 {
   font-size: 31px;
   line-height: 40px;
 }
 
 #contact {
-  background-color: rgb(202, 220, 252);
-  color: rgb(0, 36, 107);
+  background-color: rgb(0, 36, 107);
+  color: rgb(202, 220, 252);
   margin: 0px;
   height: 850px;
-  padding:0px;
+  padding: 0px;
   text-align: center;
 }
 
-footer>h1 {
+footer > h1 {
   margin: 0px 0px 20px 0px;
   padding: 0px;
   text-align: center;
@@ -291,7 +362,8 @@ fieldset {
 input {
   width: 400px;
   height: 25px;
-  background-color: rgb(202, 220, 252);
+  background-color: rgb(0, 36, 107);
+  color: rgb(202, 220, 252);
   text-align: left;
   font-size: 18px;
   margin: 0px;
@@ -301,7 +373,8 @@ input {
 
 textarea {
   width: 400px;
-  background-color: rgb(202, 220, 252);
+  background-color: rgb(0, 36, 107);
+  color: rgb(202, 220, 252);
   text-align: left;
   font-size: 18px;
   border: none;
@@ -309,13 +382,13 @@ textarea {
 }
 
 ::placeholder {
-  color: rgb(0, 36, 107);
+  color: rgb(202, 220, 252);
   font-weight: bold;
 }
 
 button {
-  background-color: rgb(0, 36, 107);
-  color: rgb(202, 220, 252);
+  background-color: rgb(202, 220, 252);
+  color: rgb(0, 36, 107);
   width: 425px;
   height: 60px;
   box-shadow: none;
@@ -330,7 +403,7 @@ button {
   align-content: baseline;
 }
 
-.address>h5,
+.address > h5,
 i {
   margin: 20px 10px;
 }
@@ -345,26 +418,25 @@ i {
 .icons {
   font-size: 40px;
 }
-footer>p{
+footer > p {
   margin-bottom: 0px;
 }
-.back{
+.back {
   margin: 0px;
   padding: 10px;
   text-align: end;
   height: 50px;
 }
 /* Small screens (mobile devices) */
-@media(max-width: 1024px) {
-
+@media (max-width: 1024px) {
   * {
     overflow-x: none;
   }
-  ul{
+  ul {
     justify-content: center;
     padding-left: 0px;
   }
-  li a{
+  li a {
     padding: 10px;
     font-size: 16px;
     font-weight: bolder;
@@ -372,27 +444,30 @@ footer>p{
   html {
     font-size: 16px;
   }
-#home>img{
-   width: 400px;
-   height:500px;
-}
+  #home > img {
+    width: 400px;
+    height: 500px;
+  }
   img {
     width: 300px;
     height: 350px;
   }
-  .home-one, .home-three{
+  .home-one,
+  .home-three {
     margin: 0px;
-    padding:0px 0px 0px 10px;
+    padding: 0px 0px 0px 10px;
     font-size: 25px;
     width: 412px;
   }
-
   #home,
   #about,
+  #english,
   .prt,
   .footer_one,
   .ab-one,
   .ab-two,
+  #englishSkils,
+  #lifeSkils,
   .blog-one,
   .blog-two,
   #contact {
@@ -401,76 +476,82 @@ footer>p{
     flex-wrap: wrap;
     font-size: 22px;
   }
-  .contact-one{
+  .contact-one {
     margin-bottom: 5px;
     margin-top: 10px;
   }
-  .ab-one>.contact-one>.contact-one-h2{
+  .ab-one > .contact-one > .contact-one-h2 {
     font-size: 19px;
   }
-  .ab-one>.contact-one>h2{
+  .ab-one > .contact-one > h2 {
     font-size: 19px;
   }
-  .contact-two{
+  .contact-two {
     padding-right: 0px;
   }
-  .ab-two{
+  .ab-two {
     margin-top: 10px;
   }
-  .prt-one{
+  .prt-one {
     margin-top: 30px;
   }
- #blog{
-     width: 100%;
+  #blog {
+    width: 100%;
     height: 1520px;
     flex-direction: column;
     font-size: 22px;
- }
- .blog-one{
-  height: 600px;
- }
- .blog-one-one>h2{
-  padding-left: 60px;
- }
- .blog-one-one>h6{
-  padding-left: 60px;
- }
- .blog-two{
-  height: 600px;
-  padding-left: 10px;
- }
- .blog-one-one{
-  height: 200px;
-  font-size: 30px;
- }
-  .blog-one-two> {
+  }
+  .blog-one {
+    height: 600px;
+  }
+  .blog-one-one > h2 {
+    padding-left: 60px;
+  }
+  .blog-one-one > h6 {
+    padding-left: 60px;
+  }
+  .blog-two {
+    height: 600px;
+    padding-left: 10px;
+  }
+  .blog-one-one {
+    height: 200px;
+    font-size: 30px;
+  }
+  .blog-one-two > {
     font-size: 10px;
     height: 250px;
     width: 300px;
   }
-.blog-one-two-one{
-  justify-content: space-between;
-  width: 400px;
-  margin-top: 50px;
-}
-  .blog-one-two-one>h6, h5,i{
+  .blog-one-two-one {
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 50px;
+  }
+  .blog-one-two-one > h6,
+  h5,
+  i {
     margin-bottom: 0px;
   }
-  .blog-two-two>h2{
+  .blog-two-two > h2 {
     font-size: 30px;
   }
-  .words{
+  .words {
     width: 400px;
   }
-  .words>i{
+  .words > i {
     font-size: 19px;
   }
-  #contact>p{
+  #contact > p {
     margin: 0px;
     padding: 10px;
   }
-  input, textarea, form,fieldset, button{
-    width:380px;
+  input,
+  textarea,
+  form,
+  fieldset,
+  button {
+    width: 380px;
     margin-right: 0px;
     margin-left: 0px;
   }
